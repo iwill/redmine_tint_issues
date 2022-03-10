@@ -55,65 +55,80 @@ table.list > tbody > tr.ancient:nth-child(odd):hover   { background-color:#ffffd
 table.list > tbody > tr.ancient:nth-child(even):hover  { background-color:#ffffdd; }
 
 /* hasduedate */
-table.list > tbody > tr:nth-child(odd).hasduedate,
-table.list > tbody > tr:nth-child(even).hasduedate
+table.list > tbody > tr.hasduedate > td:first-of-type
     {
     border-left-style: solid;
-    border-right-style: solid;
     border-left-width: 5px;
     border-left-color: #cccccc;
+    border-collapse: separate;
+    }
+table.list > tbody > tr.hasduedate > td:last-of-type
+    {
+    border-right-style: solid;
     border-right-width: 5px;
     border-right-color: #cccccc;
     border-collapse: separate;
     }
     
 /* due */
-table.list > tbody > tr:nth-child(odd).due,
-table.list > tbody > tr:nth-child(even).due
+table.list > tbody > tr.due > td:first-of-type
     {
     border-left-style: solid;
-    border-right-style: solid;
     border-left-width: 5px;
     border-left-color: #99cc00;
+    border-collapse: separate;
+    }
+table.list > tbody > tr.due > td:last-of-type
+    {
+    border-right-style: solid;
     border-right-width: 5px;
     border-right-color: #99cc00;
     border-collapse: separate;
     }
     
 /* moredue */
-table.list > tbody > tr:nth-child(odd).moredue,
-table.list > tbody > tr:nth-child(even).moredue
+table.list > tbody > tr.moredue > td:first-of-type
     {
     border-left-style: solid;
-    border-right-style: solid;
     border-left-width: 5px;
     border-left-color: #ff9900;
+    border-collapse: separate;
+    }
+table.list > tbody > tr.moredue > td:last-of-type
+    {
+    border-right-style: solid;
     border-right-width: 5px;
     border-right-color: #ff9900;
     border-collapse: separate;
     }
     
 /* verydue */
-table.list > tbody > tr:nth-child(odd).verydue,
-table.list > tbody > tr:nth-child(even).verydue
+table.list > tbody > tr.verydue > td:first-of-type
     {
-    border-left-style: solid;
     border-right-style: solid;
-    border-left-width: 5px;
-    border-left-color: #ff0000;
+    border-right-width: 5px;
+    border-right-color: #ff0000;
+    border-collapse: separate;
+    }
+table.list > tbody > tr.verydue > td:last-of-type
+    {
+    border-right-style: solid;
     border-right-width: 5px;
     border-right-color: #ff0000;
     border-collapse: separate;
     }
     
 /* overdue */
-table.list > tbody > tr:nth-child(odd).overdue,
-table.list > tbody > tr:nth-child(even).overdue
+table.list > tbody > tr.overdue > td:first-of-type
     {
     border-left-style: solid;
-    border-right-style: solid;
     border-left-width: 5px;
     border-left-color: #000000;
+    border-collapse: separate;
+    }
+table.list > tbody > tr.overdue > td:last-of-type
+    {
+    border-right-style: solid;
     border-right-width: 5px;
     border-right-color: #000000;
     border-collapse: separate;
