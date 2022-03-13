@@ -39,11 +39,17 @@ table.list > tbody > tr.hasduedate > td:first-of-type,
 #roadmap    table.related-issues > tbody > tr.hasduedate > td:first-of-type + td,
 #my-page    table.list           > tbody > tr.hasduedate > td:first-of-type + td
     {
+    border-left-style: solid;
+    border-left-width: 5px;
     border-left-color: <%= Setting['plugin_redmine_tint_issues']['hasduedate_color'] %>;
+    border-collapse: separate;
     }
 table.list > tbody > tr.hasduedate > td:last-of-type
     {
+    border-right-style: solid;
+    border-right-width: 5px;
     border-right-color: <%= Setting['plugin_redmine_tint_issues']['hasduedate_color'] %>;
+    border-collapse: separate;
     }
     
 /* due */
@@ -53,11 +59,17 @@ table.list > tbody > tr.due > td:first-of-type,
 #roadmap    table.related-issues > tbody > tr.due > td:first-of-type + td,
 #my-page    table.list           > tbody > tr.due > td:first-of-type + td
     {
+    border-left-style: solid;
+    border-left-width: 5px;
     border-left-color: <%= Setting['plugin_redmine_tint_issues']['due_since_color'] %>;
+    border-collapse: separate;
     }
 table.list > tbody > tr.due > td:last-of-type
     {
+    border-right-style: solid;
+    border-right-width: 5px;
     border-right-color: <%= Setting['plugin_redmine_tint_issues']['due_since_color'] %>;
+    border-collapse: separate;
     }
     
 /* moredue */
@@ -67,11 +79,17 @@ table.list > tbody > tr.moredue > td:first-of-type,
 #roadmap    table.related-issues > tbody > tr.moredue > td:first-of-type + td,
 #my-page    table.list           > tbody > tr.moredue > td:first-of-type + td
     {
+    border-left-style: solid;
+    border-left-width: 5px;
     border-left-color: <%= Setting['plugin_redmine_tint_issues']['moredue_since_color'] %>;
+    border-collapse: separate;
     }
 table.list > tbody > tr.moredue > td:last-of-type
     {
+    border-right-style: solid;
+    border-right-width: 5px;
     border-right-color: <%= Setting['plugin_redmine_tint_issues']['moredue_since_color'] %>;
+    border-collapse: separate;
     }
     
 /* verydue */
@@ -81,11 +99,17 @@ table.list > tbody > tr.verydue > td:first-of-type,
 #roadmap    table.related-issues > tbody > tr.verydue > td:first-of-type + td,
 #my-page    table.list           > tbody > tr.verydue > td:first-of-type + td
     {
+    border-left-style: solid;
+    border-left-width: 5px;
     border-left-color: <%= Setting['plugin_redmine_tint_issues']['verydue_since_color'] %>;
+    border-collapse: separate;
     }
 table.list > tbody > tr.verydue > td:last-of-type
     {
+    border-right-style: solid;
+    border-right-width: 5px;
     border-right-color: <%= Setting['plugin_redmine_tint_issues']['verydue_since_color'] %>;
+    border-collapse: separate;
     }
     
 /* overdue */
@@ -95,11 +119,17 @@ table.list > tbody > tr.overdue > td:first-of-type,
 #roadmap    table.related-issues > tbody > tr.overdue > td:first-of-type + td,
 #my-page    table.list           > tbody > tr.overdue > td:first-of-type + td
     {
+    border-left-style: solid;
+    border-left-width: 5px;
     border-left-color: <%= Setting['plugin_redmine_tint_issues']['overdue_color'] %>;
+    border-collapse: separate;
     }
 table.list > tbody > tr.overdue > td:last-of-type
     {
+    border-right-style: solid;
+    border-right-width: 5px;
     border-right-color: <%= Setting['plugin_redmine_tint_issues']['overdue_color'] %>;
+    border-collapse: separate;
     }
 </style>
 <%- end %>
